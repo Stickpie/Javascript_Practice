@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titleTxt {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.rockButton, .paperButton, .scissorsButton {
+    height: 110px;
+    width: 110px;
+    background-color: rgb(27, 27, 27);
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.rockEmoji, .paperEmoji, .scissorsEmoji {
+    height: 50px;
+    width: 50px;
+}
+
+.gameResult {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.moves {
+    height: 50px;
+}
+
+.resetScore, .autoplay {
+    padding: 10px 15px 10px 15px;
+    border-width: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.autoplay:active {
+    content: 'Stop';
+}

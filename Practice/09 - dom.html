@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM</title>
+        <style>
+            
+        </style>
+    </head>
+
+    <body>
+
+        <button>hello</button>
+        <button class ="js-button">second button</button>
+
+        <script>
+            console.log(document.title);
+            document.title = 'Changed';
+
+            console.log(document.body);
+            //You can access HTML from inside Javascript, this is what gives Javascript control over the website
+            //when you console.log this -v it says "object" bc Javascript converts HTML elements into objects
+            console.log(typeof document.body);
+
+            console.log(document.body.innerHTML);
+
+            console.log(document.querySelector('button').innerHTML);
+            document.querySelector('button')
+                .innerHTML = 'Changed';
+            document.querySelector('.js-button');
+
+            //end variable with Elem to denote HTML object inside variable
+            const buttonElem = document.querySelector('.js-button');
+            console.log(buttonElement);
+            
+
+            /*
+            document.body.innerHTML = 'hello';
+            document.title = 'Good job!';
+            */
+        </script>
+
+
+    </body>
+
+</html>

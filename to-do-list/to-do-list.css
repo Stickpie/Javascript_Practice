@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputBar {
+    height: 25px;
+    width: 180px;
+}
+
+.dateBar {
+    height: 27px;
+    width: 180px;
+}
+
+.addButton {
+    height: 31px;
+    width: 70px;
+    background-color: rgb(0, 162, 0);
+    border: none;
+    color: white;
+}
+
+.todo-grid, .todo-input{
+    display: grid;
+    grid-template-columns: 195px 187px 70px;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.todo-input {
+    margin-bottom: 20px;;
+    align-items: stretch;
+}
+
+.deleteButton {
+    height: 31px;
+    width: 70px;
+    background-color: rgb(206, 0, 0);
+    border: none;
+    color: white;
+}
